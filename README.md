@@ -1,8 +1,8 @@
 # lib
 This is a library of matlab functions for common use on several projects. 
 To avoid duplicaiton, code common to multiple projects will increasingly be placed in this library rather than in the respective project repo.
-As of now, **lib** contains supporting functions for the following repos:\\
-**xylNet**\\
+As of now, **lib** contains supporting functions for the following repos:\
+**xylNet**\
 **rootLength**
 
 # Directory structure
