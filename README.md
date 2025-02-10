@@ -1,5 +1,9 @@
 # lib
-Library of supporting functions.
+This is a library of matlab functions for common use on several projects. 
+To avoid duplicaiton, code common to multiple projects will increasingly be placed in this library rather than in the respective project repo.
+As of now, **lib** contains supporting functions for the following repos:\\
+**xylNet**\\
+**rootLength**
 
 # Directory structure
 By default, code from individual project repos expects to be placed in a project directory within a root matlab directory, like so:\
@@ -11,7 +15,7 @@ By default, code from individual project repos expects to be placed in a project
 ~/matlab_root/projectB/src/\
 ...
 
-To avoid duplication, code common to multiple projects will increasingly be placed in this library, added to the matlab path by the init function of each project. 
+In order to make the shared code accessible to matlab during execution of the project code, the *Init() funciton of each associated project adds the library to the matlab path.
 By default, project code expects this library of common functions to be placed in:\
 ~/root/lib/
 
